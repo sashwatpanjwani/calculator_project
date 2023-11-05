@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Structure */
+.calc{
+    background-color: black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgb(4, 20, 36) ;
+    
+}
+.display{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+}
+
+/* Design */
+.input{
+    margin-top: 2.5vh;
+    border-radius: 14vw;
+    width: 98vw;
+    background: rgb(255, 255, 255);
+    height: 15vh;
+    color: black(255, 255, 255);
+    text-align: center;
+    font-size: 3rem;
+    background-color: white;
+}
+.button{
+    background-color: rgb(9, 224, 227);
+    color: white;
+    height: 15vh;
+    width: 24vw;
+    border-radius:20px;
+    margin-top:0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 0.5vw;
+    margin-left: 0.5vw;
+    font-size: 3rem;
+}
+.button:hover{
+    background-color:rgb(91, 206, 217);
+    cursor: pointer;
+ }
+.signs,.oper{
+    background-color:rgb(255, 213, 0);
+}
+.signs:hover{
+    background-color:rgb(91, 206, 217);
+    cursor: pointer;
+}
+.oper:hover{
+    background-color:rgb(215, 197, 114);
+    cursor: pointer;
+}
+
+.zero{
+    width: 50vw;
+}
